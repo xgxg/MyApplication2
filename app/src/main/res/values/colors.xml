@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bule">#aa003bff</color>
+    <color name="black">#000000</color>
+    <color name="darkgray">#666666</color>
+    <color name="white">#ffffff</color>
+    <color name="diliver_line">#EEEEEE</color>
+    <color name="text_gray3">#BBBBBB</color>
+
+    <color name="diliver_line2">#eaeff5</color>
+    <color name="diliver_line3">#e5e5e5</color>
+    <color name="diliver_line4">#929292</color>
+    <color name="listview_item_bg_focus">#F4F4F4</color>
+
+    <!--  二维码  -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

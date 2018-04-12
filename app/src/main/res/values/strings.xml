@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">XG</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--  二维码  -->
+    <string name="scan_text">将二维码放在扫描区</string>
+    <string name="Scan_QR_Code">扫描二维码</string>
+    <string name="Scan_failed">二维码扫描失败,再试试!</string>
+    <string name="Scaning_">扫描中...</string>
+    <string name="Please_Allow_access_Camera">请打开摄像头权限</string>
+    <string name="image_qrcode">图片识别</string>
+    <string name="input_qrcode">输入编号</string>
+    <string name="select_qrcode_image">请选择二维码图片</string>
+    <string name="input_imei">请输入编号</string>
+    <string name="name_cant_empty">名字不能为空</string>
+</resources>

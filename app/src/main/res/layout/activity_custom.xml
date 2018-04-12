@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.dr.xg.myapplication.custom.CustomView
+        android:id="@+id/custom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        custom:isshow="true"
+        custom:color="@color/possible_result_points"
+        custom:size="@dimen/textsize24"
+        custom:title="黄冬榕"/>
+
+    <Button
+        android:id="@+id/btn_nest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一个"
+        android:background="@drawable/bg_small"/>
+</RelativeLayout>

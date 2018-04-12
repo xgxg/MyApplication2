@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dr.xg.myapplication.myViewDragHelper.VDHLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dragView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="正常拽动"/>
+
+    <TextView
+        android:id="@+id/edgeDragView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="边界拽动"/>
+
+    <TextView
+        android:id="@+id/autoBackView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="回调原点"/>
+</com.dr.xg.myapplication.myViewDragHelper.VDHLinearLayout>
